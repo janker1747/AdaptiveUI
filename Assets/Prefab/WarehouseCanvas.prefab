@@ -923,10 +923,10 @@ RectTransform:
   - {fileID: 5577267714564811133}
   m_Father: {fileID: 1447224659417341930}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -377.42, y: -71.655}
-  m_SizeDelta: {x: 1645.2, y: 937.69}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.6843334, y: 0.8712593}
+  m_AnchoredPosition: {x: 1.579956, y: -2.1550293}
+  m_SizeDelta: {x: 3.1999512, y: -3.3099976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1897888639140009385
 CanvasRenderer:
@@ -1083,6 +1083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8177336577619997910}
   - component: {fileID: 1532964007677527359}
+  - component: {fileID: 8629972192080370808}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1119,7 +1120,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.00000304687, y: -0.0001}
-  m_SizeDelta: {x: -1645.2, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1532964007677527359
 MonoBehaviour:
@@ -1145,6 +1146,20 @@ MonoBehaviour:
   m_Spacing: {x: 33.99, y: 18.2}
   m_Constraint: 1
   m_ConstraintCount: 5
+--- !u!114 &8629972192080370808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251778095940814278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1 &3424770736125408408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,7 +1643,7 @@ MonoBehaviour:
   _upgradeButton: {fileID: 2197037787144859002}
   _startCurrent: 150
   _maxCapacity: 500
-  _upgradeAmount: 10
+  _upgradeAmount: 150
   _slotsPerUpgrade: 5
 --- !u!114 &3364443342845007990
 MonoBehaviour:
@@ -1660,7 +1675,7 @@ GameObject:
   - component: {fileID: 7079678637775322971}
   - component: {fileID: 7628530676616490845}
   m_Layer: 5
-  m_Name: MainCanvas
+  m_Name: WarehouseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2403,6 +2418,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dc7e808ab26e184449894c4de1397808, type: 3}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5058946151611535285, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3651,6 +3678,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c30c044e1fd24f44fab1f38cce91d4f5, type: 3}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5058946151611535285, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3817,6 +3856,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: bf1cddd2d30047142ba05946af38489d, type: 3}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5058946151611535285, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3987,6 +4038,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 555c10537daebb340936e3578e727777, type: 3}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5058946151611535285, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4290,6 +4353,18 @@ PrefabInstance:
     - target: {fileID: 2589483825590757709, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_text
       value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786420203773786552, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566857033311964010, guid: cc3ebd427af04784691ab1e560f16081, type: 3}
       propertyPath: m_text
